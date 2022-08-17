@@ -1,0 +1,39 @@
+{
+  "campains": [
+    {
+      "type": "column",
+      "name": "Turnover",
+      "data": [1900, 2800, 3900, 4200, 5900, 2000, 1800, 1800, 2000, 2200, 1400, 2000, 3900, 3600, 4000]
+    },
+    {
+      "type": "column",
+      "name": "Event number",
+      "data": [0, 2700, 3800, 4100, 5700]
+    }, 
+    {
+      "type": "column",
+      "name": "Event tokuken",
+      "data": [0, 0, 0, 0, 0, 2000, 1800, 1800, 2000, 2200, 1350, 2000, 3700, 3800, 3900]
+    },
+    {
+      "type": "spline",
+      "name": "Number event ratio",
+      "data": [null, 3040, 3850, 3315, 3540],
+      "marker": {
+        "lineWidth": 2,
+        "lineColor": "green",
+        "fillColor": "white"
+      }
+    },
+    {
+      "type": "spline",
+      "name": "Tokuten event ratio",
+      "data": [null, null, null, null, null, 4100, 4250, 4030, 4110, 4250, 3840, 4210, 2890, 3500, 3000],
+      "marker": {
+        "lineWidth": 2,
+        "lineColor": "purple",
+        "fillColor": "black"
+      }
+    }
+  ]
+}
